@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypernetics Design System</title>
+    <link rel="stylesheet" href="styles/output.css" />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a
+          href="https://flowbite.com/"
+          class="flex items-center space-x-3 rtl:space-x-reverse"
+        >
+          <img
+            src="./img/logo-hypernetics.svg"
+            class="h-12"
+            alt="Flowbite Logo"
+          />
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- LOGO SECTION -->
+
+    <section class="max-w-screen-xl mx-auto p-4 flex-col">
+      <h1 class="text-[2rem] mb-4">Logotipo</h1>
+      <p class="mb-4">
+        En esta sección, encontrarás los diferentes logotipos oficiales de
+        nuestra marca, disponibles en varios formatos y versiones para adaptarse
+        a tus necesidades de diseño. Cada archivo está optimizado para su uso en
+        distintos contextos, ya sea digital o impreso. Asegúrate de utilizar el
+        logotipo correcto de acuerdo con las guías de uso que se proporcionan
+        para mantener la coherencia de nuestra identidad visual.
+      </p>
+
+      <div class="flex justify-center gap-5">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="#">
+            <img class="rounded-t-lg" src="./img/logo-hypernetics.svg" alt="" />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#581E85]">
+                Logotipo principal
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Este es el logotipo principal para uso en fondo blanco
+            </p>
+            <button
+              onclick="downloadImage(this, './img/logo-hypernetics.svg', 'logo-hypernetics.svg')"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#581E85] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            >
+              Descargar
+              <svg
+                class="w-6 h-6 tex-twite"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="#" class="block bg-[#581E85] rounded-t-lg">
+            <img
+              class="rounded-t-lg"
+              src="./img/logo-hypernetics-white.svg"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#581E85]">
+                Logotipo blanco
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Este es el logotipo principal para uso en fondo oscuro
+            </p>
+            <button
+              onclick="downloadImage(this, './img/logo-hypernetics-white.svg', 'logo-hypernetics-white.svg')"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#581E85] rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            >
+              Descargar
+              <svg
+                class="w-6 h-6 tex-twite"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

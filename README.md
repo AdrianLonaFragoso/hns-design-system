@@ -1,2 +1,3 @@
-# hns-design-system
+# Hypernetics Design System
+
 Design System of Hypernetics
